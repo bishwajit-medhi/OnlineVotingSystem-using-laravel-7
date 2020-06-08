@@ -32,9 +32,6 @@ Route::get('/candidate-list','Candidate\CandidateListController@index')->name('c
 //Route::get('/home', 'HomeController@index')->name('home');
 
 
-
-
-
 //Admin Routes
 
 Route::prefix('admin')->group( function(){
